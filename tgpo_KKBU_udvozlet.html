@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+
+      html {
+        font-family: "Barlow", sans-serif;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        text-align: center;
+        color: #00adbb;
+      }
+
+      .main {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .illustration {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        overflow: hidden;
+        width: 100vw;
+        background-color: #00adbb;
+      }
+
+      img#composition {
+        display: flex;
+        justify-content: center;
+        margin-top: 5vh;
+        margin-bottom: -10px;
+        max-width: 90%;
+        max-height: 95vh;
+        
+      }
+
+      .content {
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      #year_tipo {
+        display: flex;
+        justify-content: center;
+      }
+
+      img#year_tipo_img {
+        max-width: 90%;
+      }
+
+      #message p {
+        color: #00adbb;
+      }
+
+
+      #message {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 100%;
+        line-height: 1.5;
+      }
+
+      @media screen and (max-width: 480px) {
+        p {
+          font-size: 12px;
+        }
+      }
+
+      @media screen and (max-width: 768px) and (min-width: 480px)  {
+        p {
+          font-size: 16px;
+        }
+      }
+
+      @media screen and (max-width: 1024px) and (min-width: 769px)  {
+        p {
+          font-size: 22px;
+        }
+      }
+
+      @media screen and (max-width: 1440px) and (min-width: 1025px)  {
+        p {
+          font-size: 28px;
+        }
+      }
+
+      @media screen and (min-width: 1440px){
+        p {
+          font-size: 34px;
+        }
+      }
+
+        
+      
+
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <p>Ha hibásan jelenik meg az üzenet, itt megtekintheti.</p>
+    </header>
+    <main class="main">
+      <div class="illustration">
+        <img id="composition" src="https://github.com/gptypo/xmas/blob/main/IMG/Composition.png?raw=true" alt="">
+      </div>
+      <div class="content">
+        <div id="year_tipo">
+          <img id="year_tipo_img" src="https://github.com/gptypo/xmas/blob/main/IMG/years_tipo_modified.jpg?raw=true" alt="">
+
+        </div>
+        <div id="message">
+          <p>Habár <br>
+            az idei év <br>
+            valószínűleg <br>
+            kimarad a „Kedvenc <br>
+            esztendőink” bőrkötéses <br>
+            almanachjából, de végre vége, <br>
+            s minden jó, ha vége tipo! Ezért (is) <br>
+            kellemes ünnepeket és boldog új esztendőt <br>
+            kívánok!</p>
+
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
